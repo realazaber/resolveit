@@ -1,0 +1,30 @@
+
+@import "tailwindcss";
+@import "tailwindcss-primeui";
+
+@import 'primeicons/primeicons.css';
+
+
+
+@theme {
+  --color-primary: #00bf62;
+  --color-secondary: #f3f4f6;
+  
+}
+
+.container {
+  span, p, label {
+    @apply text-slate-600 font-normal;
+  }
+
+  .form-group {
+    @apply  sm:my-3 my-1 gap-1;
+  }
+
+  .p-button-label {
+    @apply text-white;
+  }
+
+  
+  
+}
